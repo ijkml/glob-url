@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import matcher from '../src/index';
+import { matcher } from '../src/index';
 
 const { match, test } = matcher;
 
