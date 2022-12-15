@@ -7,12 +7,14 @@ function matchRoute(globPattern: string, routePath: string): boolean {
   const pattern = normalizePath(globPattern)
     .toLocaleLowerCase()
     .split('/')
-    .slice(1);
+    .slice(1)
+    .map(item => item.trim());
 
   const route = normalizePath(routePath)
     .toLocaleLowerCase()
     .split('/')
-    .slice(1);
+    .slice(1)
+    .map(item => item.trim());
 
   // pattern length
   const pLen = pattern.length;
