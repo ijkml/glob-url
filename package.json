@@ -1,7 +1,7 @@
 {
   "name": "glob-url",
   "type": "module",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "packageManager": "pnpm@7.18.0",
   "description": "A dead-basic, dead-simple pattern matcher library for route URLs",
   "author": "Moses Laurence<me.mlaure@gmail.com>",
