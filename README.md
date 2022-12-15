@@ -4,22 +4,24 @@
 <a href="https://github.com/ijkml/glob-url/blob/main/LICENSE"><img alt="GitHub" src="https://img.shields.io/github/license/ijkml/glob-url?color=teal"></a>
 <img alt="CI" src="http://img.shields.io/github/actions/workflow/status/ijkml/glob-url/ci.yml?branch=main">
 
-
 **Glob Url** is a dead-basic, dead-simple pattern matcher library for route URLs.
 
 ## Installation
 
 With `pnpm`
+
 ```bash
 pnpm add glob-url
 ```
 
 ...with `npm`
+
 ```bash
 npm install glob-url
 ```
 
 ...or `yarn`
+
 ```bash
 yarn add glob-url
 ```
