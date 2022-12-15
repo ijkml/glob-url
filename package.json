@@ -1,0 +1,28 @@
+{
+  "name": "glob-url",
+  "type": "module",
+  "version": "0.0.1",
+  "packageManager": "pnpm@7.18.0",
+  "description": "A dead-basic, dead-simple pattern matcher library for route URLs",
+  "author": "Moses Laurence<me.mlaure@gmail.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/ijkml/glob-url#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ijkml/glob-url.git"
+  },
+  "bugs": "https://github.com/ijkml/glob-url/issues",
+  "keywords": [
+    "minimatch",
+    "glob-url",
+    "url-glob",
+    "matcher",
+    "route-match",
+    "glob-match",
+    "url-match",
+    "mini-match",
+    "url",
+    "route",
+    "glob"
+  ]
+}
