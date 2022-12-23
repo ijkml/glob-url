@@ -10,9 +10,7 @@ function normalizePath(str: string): string {
   if (fixStart.length === 1)
     return fixStart;
 
-  return fixStart.endsWith('/')
-    ? fixStart.slice(0, fixStart.length - 1)
-    : fixStart;
+  return fixStart.replace(/\/$/, '');
 }
 
 function matchPattern(pattern: string, blob: string): boolean {
